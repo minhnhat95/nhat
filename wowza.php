@@ -2,6 +2,7 @@
 <?php
 
 	echo "hello\n";
+	echo "nn";
 	$ch = curl_init();
 	echo "0\n";
 	curl_setopt($ch, CURLOPT_URL, "https://api.cloud.wowza.com/api/v1/live_streams");
