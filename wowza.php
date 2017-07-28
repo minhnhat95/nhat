@@ -3,7 +3,7 @@
 
 	echo "hello\n";
 	$ch = curl_init();
-
+	echo "0\n";
 	curl_setopt($ch, CURLOPT_URL, "https://api.cloud.wowza.com/api/v1/live_streams");
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 	curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
