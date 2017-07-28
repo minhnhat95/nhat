@@ -2,6 +2,8 @@
 <?php>
 if ($_SERVER["REQUEST_METHOD"] == "GET")
 {
+	echo "hello";
+	/*
 	$ch = curl_init();
 
 	curl_setopt($ch, CURLOPT_URL, "https://api.cloud.wowza.com/api/v1/live_streams");
@@ -21,5 +23,6 @@ if ($_SERVER["REQUEST_METHOD"] == "GET")
 	else echo $result;
 
 	curl_close ($ch);
+	*/
 }
 ?>
