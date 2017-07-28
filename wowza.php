@@ -16,9 +16,14 @@
 
 	$result = curl_exec($ch);
 	if (curl_errno($ch)) {
+		echo "error";
 		echo 'Error:' . curl_error($ch);
 	}
-	else echo $result;
+	else 
+	{
+		echo "ok";
+		echo $result;
+	}
 
 	curl_close ($ch);
 
