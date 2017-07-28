@@ -20,7 +20,7 @@ $result = curl_exec($ch);
 if (curl_errno($ch)) {
     echo 'Error:' . curl_error($ch);
 }
-else echo $result;
+else echo json_encode($result);
 curl_close ($ch);
 
 ?>
