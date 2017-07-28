@@ -1,7 +1,6 @@
 
 <?php>
-if ($_SERVER["REQUEST_METHOD"] == "GET")
-{
+
 	echo "hello";
 	/*
 	$ch = curl_init();
@@ -24,5 +23,5 @@ if ($_SERVER["REQUEST_METHOD"] == "GET")
 
 	curl_close ($ch);
 	*/
-}
+
 ?>
