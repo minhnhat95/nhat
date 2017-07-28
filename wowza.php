@@ -10,7 +10,7 @@
 
 
 	$headers = array();
-	$headers[] = "Wsc-Api-Key: zrlWvVapoRIG50b6TufAqBrhBpjCGQhQsT4ttgiYE5gwKWhQgaswZGWtGFKL3630 ";
+	$headers[] = "Wsc-Api-Key: zrlWvVapoRIG50b6TufAqBrhBpjCGQhQsT4ttgiYE5gwKWhQgaswZGWtGFKL3630";
 	$headers[] = "Wsc-Access-Key: pMSDulbhMeDND9QzzIHyQIBOuAJKUufgqFQ8xcjVIQUvM7DDGXTEJjzZGKzp3454";
 	curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
