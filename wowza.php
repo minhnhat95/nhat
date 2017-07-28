@@ -11,6 +11,7 @@ curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
 $headers = array();
 $headers[] = "Wsc-Api-Key: zrlWvVapoRIG50b6TufAqBrhBpjCGQhQsT4ttgiYE5gwKWhQgaswZGWtGFKL3630";
 $headers[] = "Wsc-Access-Key: pMSDulbhMeDND9QzzIHyQIBOuAJKUufgqFQ8xcjVIQUvM7DDGXTEJjzZGKzp3454";
+echo $headers;
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
 $result = curl_exec($ch);
